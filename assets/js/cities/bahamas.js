@@ -1,5 +1,5 @@
 $.ajax({
-    url : 'https://api.unsplash.com/photos/random?collections=2097369&fit=clip&w=1920&h=1080&client_id=yourunsplashedAPIkeygoeshere',
+    url : 'https://api.unsplash.com/photos/random?collections=2097369&fit=clip&w=1920&h=1080&client_id=yourunsplashAPIkeygoeshere',
     type : 'GET',
     dataType : 'json',
     success : function(data) {
@@ -23,7 +23,7 @@ $.ajax({
       }).fadeIn(1500);
       
    // Credit photographer in main menu
-   $('.photog-credit').html('Photog // <a href="' + photogurl + '?utm_source=nameofyourappgoeshere&utm_medium=referral&utm_campaign=api-credit" target="_blank">' + photog + '</a>');
+   $('.photog-credit').html('Photog // <a href="' + photogurl + '?utm_source=nameofyourunsplashappgoeshere&utm_medium=referral&utm_campaign=api-credit" target="_blank">' + photog + '</a>');
 }
 
 });
