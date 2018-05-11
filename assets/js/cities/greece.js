@@ -1,5 +1,5 @@
 $.ajax({
-    url : 'https://api.unsplash.com/photos/random?collections=2097322&fit=clip&w=1920&h=1080&client_id=yourunsplashedAPIkeygoeshere',
+    url : 'https://api.unsplash.com/photos/random?collections=2097322&fit=clip&w=1920&h=1080&client_id=yourunsplashAPIkeygoeshere',
     type : 'GET',
     dataType : 'json',
     success : function(data) {
