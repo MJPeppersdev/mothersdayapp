@@ -1,0 +1,48 @@
+doctype html
+head
+  title Happy Mother's Day
+  meta(name="viewport", content="width=device-width, initial-scale=1")
+  // Load Google Fonts
+  link(href="https://fonts.googleapis.com/css?family=Cabin", rel="stylesheet")
+  // Load the Material Design Iconic Font - http://zavoloklom.github.io/material-design-iconic-font/index.html
+  link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css")
+  // Load the main stylesheet
+  link(rel="stylesheet", href="assets/css/main.processed.css")
+body      
+  .home.image-container
+    .home-inner
+      .site-title
+        h1 Happy Mother's Day to the World's Greatest Mom
+        p Where would you like to go first?
+      nav
+        ul.home-nav
+          li
+            a.city-link(href="new-york.html", data-city="new-york") New York
+          li
+            a.city-link(href="paris.html", data-city="paris") Paris
+          li
+            a.city-link(href="greece.html", data-city="greece") Greece
+          li
+            a.city-link(href="naples.html", data-city="naples") Naples
+          li
+            a.city-link(href="kokomo.html", data-city="kokomo") Kokomo
+          li
+            a.city-link(href="tuscany.html", data-city="tuscany") Tuscany
+          li
+            a.city-link(href="rome.html", data-city="rome") Rome
+          li
+            a.city-link(href="brooklyn.html", data-city="brooklyn") Brooklyn
+          li
+            a.city-link(href="san-francisco.html", data-city="san-francisco") San Francisco
+          li
+            a.city-link(href="Bahamas.html", data-city="Bahamas") Bahamas
+            
+            
+      //- View Images in grayscale (requires DB)     
+      //- section.grayscale
+      //-   p View Images in Black and White?
+      //-   button.grayscale-yes YES
+      //-   button.grayscale-no.hide NO
+
+
+include partials/footer
