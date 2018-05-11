@@ -23,7 +23,7 @@ $.ajax({
       }).fadeIn(1500);
       
    // Credit photographer in main menu
-   $('.photog-credit').html('Photog // <a href="' + photogurl + '?utm_source=yourappnamegoeshere&utm_medium=referral&utm_campaign=api-credit" target="_blank">' + photog + '</a>');
+   $('.photog-credit').html('Photog // <a href="' + photogurl + '?utm_source=yourunsplashappnamegoeshere&utm_medium=referral&utm_campaign=api-credit" target="_blank">' + photog + '</a>');
 }
 
 });
